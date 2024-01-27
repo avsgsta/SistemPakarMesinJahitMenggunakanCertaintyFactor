@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3EEE8"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="517dp"
+        android:layout_height="1072dp"
+        app:srcCompat="@drawable/_0231220_190656_0001" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcDiagnosa"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="216dp"
+                    android:layout_height="43dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="59dp"
+                    android:layout_marginEnd="46dp"
+                    android:layout_marginBottom="48dp"
+                    android:text="Daftar Kerusakan"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="91dp"
+                    android:layout_height="123dp"
+                    android:layout_alignTop="@+id/textView"
+                    android:layout_alignBottom="@+id/textView"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginBottom="-35dp"
+                    android:layout_toStartOf="@+id/textView"
+                    app:srcCompat="@drawable/vector" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mcKonsultasi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="59dp"
+                    android:layout_marginEnd="34dp"
+                    android:layout_marginBottom="57dp"
+                    android:text="Diagnosa Kerusakan"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="91dp"
+                    android:layout_height="122dp"
+                    android:layout_alignBottom="@+id/textView4"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="-48dp"
+                    android:layout_toStartOf="@+id/textView4"
+                    app:srcCompat="@drawable/windows_logo" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/mctentang"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="61dp"
+                    android:layout_marginEnd="77dp"
+                    android:layout_marginBottom="56dp"
+                    android:text="Tentang Aplikasi"
+                    android:textColor="@color/primary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="84dp"
+                    android:layout_height="136dp"
+                    android:layout_alignTop="@+id/textView5"
+                    android:layout_alignBottom="@+id/textView5"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="-47dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="-56dp"
+                    android:layout_toStartOf="@+id/textView5"
+                    app:srcCompat="@drawable/tentanglogo" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
